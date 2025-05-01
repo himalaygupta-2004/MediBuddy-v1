@@ -77,6 +77,7 @@ Run the application:
 
 bash
 streamlit run app.py
+
 📌 Next Steps
 🔹 Adding multilingual support.
 🔹 Incorporating voice input/output for accessibility.
@@ -84,10 +85,6 @@ streamlit run app.py
 💬 Get Involved!
 We value your feedback, ideas, and collaboration opportunities! Let’s work together to build tools that genuinely help people navigate healthcare challenges. 💙
 
-🎥 Demo
-Here’s a sneak peek of MediBuddy in action:
-
-Chatbot Interface
 
 ❓ FAQ
 What data sources does MediBuddy use? MediBuddy relies on verified medical literature, like the Gale Encyclopedia of Medicine.
