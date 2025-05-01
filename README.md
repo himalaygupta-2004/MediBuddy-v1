@@ -1,6 +1,21 @@
 # MediBuddy – Your AI-Powered Medical Assistant 🚀
 
-MediBuddy is a cutting-edge conversational AI chatbot designed to provide reliable medical insights. Built with state-of-the-art language models and enriched with verified medical literature, MediBuddy aims to educate and assist users in navigating medical topics safely.
+MediBuddy is a cutting-edge conversational AI chatbot designed to provide reliable medical insights. Built with state-of-the-art language models and enriched with verified medical literature, MediBuddy empowers users to navigate healthcare topics safely and accurately.
+
+---
+
+## 📖 Table of Contents
+- [What is MediBuddy?](#-what-is-medibuddy)
+- [Tech Stack Overview](#-tech-stack-overview)
+- [Features](#-features)
+- [Why MediBuddy?](#-why-medibuddy)
+- [Installation and Setup](#-installation-and-setup)
+- [Next Steps](#-next-steps)
+- [Get Involved](#-get-involved)
+- [Demo](#-demo)
+- [FAQ](#-faq)
+- [License](#-license)
+- [Tags](#-tags)
 
 ---
 
@@ -42,20 +57,47 @@ In an era of rampant health misinformation, MediBuddy empowers users to explore 
 
 ---
 
-## 📌 Next Steps
+## 🚀 Installation and Setup
 
-- 🔹 Adding multilingual support.
-- 🔹 Incorporating voice input/output for accessibility.
-- 🔹 Fine-tuning domain-specific prompts for enhanced accuracy.
+Follow these steps to set up MediBuddy locally:
 
----
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/himalaygupta-2004/MediBuddy-v1.git
 
-## 💬 Get Involved!
+Navigate to the project directory:
 
+bash
+cd MediBuddy-v1
+Install dependencies:
+
+bash
+pip install -r requirements.txt
+Run the application:
+
+bash
+streamlit run app.py
+📌 Next Steps
+🔹 Adding multilingual support.
+🔹 Incorporating voice input/output for accessibility.
+🔹 Fine-tuning domain-specific prompts for enhanced accuracy.
+💬 Get Involved!
 We value your feedback, ideas, and collaboration opportunities! Let’s work together to build tools that genuinely help people navigate healthcare challenges. 💙
 
----
+🎥 Demo
+Here’s a sneak peek of MediBuddy in action:
 
-## 🏷️ Tags
+Chatbot Interface
 
+❓ FAQ
+What data sources does MediBuddy use? MediBuddy relies on verified medical literature, like the Gale Encyclopedia of Medicine.
+
+Is this chatbot a substitute for medical advice? No, MediBuddy is for educational purposes and should not replace professional medical advice.
+
+📜 License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+🏷️ Tags
 #AI #LangChain #Streamlit #HuggingFace #MedicalAI #Chatbot #MediBuddy #NLP #LLM #FAISS #RAG #HealthcareInnovation #OpenSource #Python #MachineLearning #GaleEncyclopedia #Mistral7B
+
+
