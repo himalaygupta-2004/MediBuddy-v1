@@ -5,6 +5,7 @@ MediBuddy is a cutting-edge conversational AI chatbot designed to provide reliab
 ---
 
 ## 📖 Table of Contents
+
 - [What is MediBuddy?](#-what-is-medibuddy)
 - [Tech Stack Overview](#-tech-stack-overview)
 - [Features](#-features)
@@ -30,13 +31,21 @@ MediBuddy is a **Streamlit-based chatbot** that enables users to ask medical que
 ## 🔧 Tech Stack Overview
 
 - **Frontend/UI**: Streamlit – Lightweight and interactive chatbot interface.
+
 - **Data Source**: The Gale Encyclopedia of Medicine (PDFs parsed and chunked for NLP).
+
 - **Document Loading**: Langchain’s `PyPDFLoader` and `DirectoryLoader`.
+
 - **Text Chunking**: `RecursiveCharacterTextSplitter`.
+
 - **Embeddings**: HuggingFace Embeddings using `sentence-transformers/all-MiniLM-L6-v2`.
+
 - **Vector Database**: FAISS – Fast similarity-based search.
+
 - **LLM Integration**: HuggingFace Endpoint with `mistralai/Mistral-7B-Instruct-v0.3`.
+
 - **Prompt Engineering**: Custom `PromptTemplate` for medically-focused Q&A retrieval.
+
 - **Environment Management**: `.env` files and `dotenv` for token security.
 
 ---
