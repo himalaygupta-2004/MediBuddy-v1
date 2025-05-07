@@ -44,9 +44,13 @@ MediBuddy is a **Streamlit-based chatbot** that enables users to ask medical que
 ## 🧠 Features
 
 - ✅ Natural-language medical Q&A.
+
 - ✅ Retrieval Augmented Generation (RAG) pipeline for precise, context-based responses.
+
 - ✅ Indexed and searchable medical knowledge base.
+
 - ✅ Modular, scalable, and open for continuous improvement.
+
 - ✅ Friendly UI with persistent chat history using `st.session_state`.
 
 ---
@@ -62,39 +66,47 @@ In an era of rampant health misinformation, MediBuddy empowers users to explore 
 Follow these steps to set up MediBuddy locally:
 
 1. Clone the repository:
-   ```bash
+
+```bash
    git clone https://github.com/himalaygupta-2004/MediBuddy-v1.git
+```
+2. Navigate to the project directory:
 
-Navigate to the project directory:
-
-bash
+```bash
 cd MediBuddy-v1
-Install dependencies:
-
-bash
+```
+3. Install dependencies:
+```bash
 pip install -r requirements.txt
-Run the application:
+```
+4. Run the application:
 
-bash
-streamlit run app.py
+```bash
+ streamlit run app.py
+```
 
-📌 Next Steps
+## 📌 Next Steps
+
 🔹 Adding multilingual support.
+
 🔹 Incorporating voice input/output for accessibility.
+
 🔹 Fine-tuning domain-specific prompts for enhanced accuracy.
-💬 Get Involved!
+
+## 💬 Get Involved!
 We value your feedback, ideas, and collaboration opportunities! Let’s work together to build tools that genuinely help people navigate healthcare challenges. 💙
 
 
-❓ FAQ
-What data sources does MediBuddy use? MediBuddy relies on verified medical literature, like the Gale Encyclopedia of Medicine.
+## ❓ FAQ
+- What data sources does MediBuddy use? MediBuddy relies on verified medical literature, like the Gale Encyclopedia of Medicine.
 
-Is this chatbot a substitute for medical advice? No, MediBuddy is for educational purposes and should not replace professional medical advice.
+- Is this chatbot a substitute for medical advice? No, MediBuddy is for educational purposes and should not replace professional medical advice.
 
-📜 License
+## 📜 License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-🏷️ Tags
+## 🏷️ Tags
+
 #AI #LangChain #Streamlit #HuggingFace #MedicalAI #Chatbot #MediBuddy #NLP #LLM #FAISS #RAG #HealthcareInnovation #OpenSource #Python #MachineLearning #GaleEncyclopedia #Mistral7B
 
 
